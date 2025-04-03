@@ -11,5 +11,4 @@ pool:
   vmImage: $(operatingSystem)
 
 steps:
-- script: echo Running on $(operatingSystem)
-  displayName: 'Run a one-line script'
+- script: echo Running on $(operatingSystem)displayName: 'Run a one-line script'
